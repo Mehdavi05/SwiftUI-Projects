@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AppleFrameworks/AppleFrameworks.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:WheatherApp/WheatherApp.xcodeproj">
    </FileRef>
    <FileRef
