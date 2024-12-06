@@ -1,0 +1,17 @@
+Explanation
+Animation Logic:
+
+The @FocusState property wrapper is used to monitor whether the SecureField is currently focused.
+The .focused modifier binds the SecureField's focus state to isPasswordFieldFocused.
+This focus state is used to determine whether the eye icon should appear "closed" (eye.slash.fill) or "open" (eye.fill).
+Eye Animation:
+
+SwiftUI's animation modifier is applied to the Image to smoothly transition between the two states.
+TextField and SecureField:
+
+A TextField is used for the username.
+A SecureField is used for the password, with onTapGesture to detect focus.
+Styling:
+
+RoundedBorderTextFieldStyle is used for a simple design.
+The login button has a rounded, blue background for a clean look.
